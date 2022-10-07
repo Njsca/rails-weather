@@ -5,7 +5,7 @@ export default class extends Controller {
   static targets = ["input", "city", "date", "description", "temperature", "icon"]
 
   initialize() {
-    this.apiKey = "8f0fec4c53426962777f7dbdcb9b407c"
+    this.apiKey = ""
   }
 
   fetchWeather(event) {
